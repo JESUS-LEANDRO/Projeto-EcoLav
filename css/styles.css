@@ -236,9 +236,10 @@ sup {
 
 a {
   color: #ff1e00;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
+text-decoration: none;
 background-color: rgb(243, 239, 239);
 border-radius: 4px;
 padding: 6px 10px;
