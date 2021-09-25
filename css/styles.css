@@ -3256,6 +3256,8 @@ progress {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  text-decoration: none;
+
 }
 
 .nav-link {
@@ -3297,13 +3299,13 @@ progress {
   color: #6c757d;
   background-color: transparent;
   border-color: transparent;
-    text-decoration:none;
+    text-decoration: none;
 
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-    text-decoration:none;
+    text-decoration: none;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -3322,7 +3324,7 @@ progress {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-    text-decoration:none;
+    text-decoration: none;
   background-color: #ffc800;
 }
 
@@ -3353,6 +3355,7 @@ progress {
 
 .navbar {
   position: relative;
+  text-decoration: none;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -3382,6 +3385,7 @@ progress {
 }
 .navbar-nav {
   display: flex;
+    text-decoration: none;
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
@@ -3393,6 +3397,7 @@ progress {
 }
 .navbar-nav .dropdown-menu {
   position: static;
+    text-decoration: none;
 }
 
 .navbar-text {
