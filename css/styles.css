@@ -67,6 +67,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -182,6 +183,7 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+
 }
 
 ol ol,
@@ -236,9 +238,10 @@ sup {
 
 a {
   color: #ff1e00;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
+text-decoration: none;
 background-color: rgb(243, 239, 239);
 border-radius: 4px;
 padding: 6px 10px;
@@ -2200,6 +2203,7 @@ progress {
 }
 
 .form-control {
+  text-decoration: none;
   display: block;
   width: 100%;
   padding: 0.375rem 0.75rem;
@@ -2311,12 +2315,12 @@ progress {
 }
 
 .btn {
+  text-decoration: none;
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: center;
-  text-decoration: none;
   vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
@@ -2337,6 +2341,8 @@ progress {
 }
 .btn:hover {
   color: #212529;
+  text-decoration: none;
+
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
@@ -2794,6 +2800,7 @@ progress {
 }
 .btn-link:hover {
   color: #cca000;
+
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
